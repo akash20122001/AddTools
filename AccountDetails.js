@@ -9,12 +9,7 @@ import GlobalSettingAPI from "restAPI/GlobalSettingAPI";
 import Vocabulary from "components/Vocabulary";
 import { isSuperOrTenantAdmin } from "utils/authService";
 import TableContainer from "components/TableContainer";
-import { DeleteIcon, EditIcon } from "components/Icons";
-import { CellRenderers } from "utils/tableUtils";
-import ModalUtil from "utils/modalUtil";
-import DeletePopup from "components/DeletePopup";
-import AddToolModal from "./AddToolModal";
-import DisplayToolStatus from "components/DisplayToolStatus";
+
   
 
 export default function AccountDetails() {
